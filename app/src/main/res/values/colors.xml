@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml (Light Theme) -->
+<resources>
+    <!-- Фон -->
+    <color name="colorBackground">#F5F5F5</color>      <!-- very light grey -->
+    <color name="colorSurface">#FFFFFF</color>         <!-- white -->
+    <!-- Контент -->
+    <color name="colorOnBackground">#212121</color>    <!-- very dark grey -->
+    <color name="colorOnSurface">#212121</color>
+    <!-- Активные элементы -->
+    <color name="colorControlNormal">#E0E0E0</color>   <!-- light grey -->
+    <color name="colorControlActivated">#CCCCCC</color><!-- medium grey -->
+    <color name="colorControlHighlight">#DDDDDD</color> <!-- pressed state -->
+    <!-- Разделители, границы -->
+    <color name="colorDivider">#BDBDBD</color>         <!-- mid grey -->
+</resources>

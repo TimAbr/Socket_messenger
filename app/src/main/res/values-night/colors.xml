@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values-night/colors.xml (Dark Theme) -->
+<resources>
+    <!-- Фон -->
+    <color name="colorBackground">#212121</color>      <!-- very dark grey -->
+    <color name="colorSurface">#2C2C2C</color>         <!-- dark grey -->
+    <!-- Контент -->
+    <color name="colorOnBackground">#E0E0E0</color>    <!-- very light grey -->
+    <color name="colorOnSurface">#E0E0E0</color>
+    <!-- Активные элементы -->
+    <color name="colorControlNormal">#424242</color>   <!-- dark grey variant -->
+    <color name="colorControlActivated">#5A5A5A</color><!-- medium-dark grey -->
+    <color name="colorControlHighlight">#333333</color> <!-- pressed state -->
+    <!-- Разделители, границы -->
+    <color name="colorDivider">#616161</color>         <!-- mid-dark grey -->
+</resources>

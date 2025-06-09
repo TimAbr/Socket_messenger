@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Тема приложения -->
+    <style name="Base.Theme.Messanger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorSurface</item>
+        <item name="colorOnPrimary">@color/colorOnSurface</item>
+        <item name="colorSecondary">@color/colorControlActivated</item>
+        <item name="colorOnSecondary">@color/colorOnSurface</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+
+        <!-- Компоненты -->
+        <item name="materialButtonStyle">@style/Widget_App_MaterialButton</item>
+        <item name="materialCardViewStyle">@style/Widget_App_MaterialCardView</item>
+        <item name="textInputStyle">@style/Widget_App_TextInputLayout</item>
+        <item name="toolbarStyle">@style/Widget_App_Toolbar</item>
+        <item name="editTextStyle">@style/Widget_App_TextInputEditText</item>
+        <item name="cardViewStyle">@style/Widget_App_MaterialCardView</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget_App_Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/colorSurface</item>
+        <item name="titleTextColor">@color/colorOnSurface</item>
+        <item name="subtitleTextColor">@color/colorOnSurface</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <!-- Кнопка: переработанный стиль -->
+    <style name="Widget_App_MaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:inset">0dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="shapeAppearance">@style/Shape_App_Rounded</item>
+    </style>
+
+    <!-- Карточка -->
+    <style name="Widget_App_MaterialCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:foregroundTint">@color/colorDivider</item>
+    </style>
+
+    <!-- Форма ввода -->
+    <style name="Widget_App_TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorDivider</item>
+        <item name="hintTextColor">@color/colorOnSurface</item>
+        <item name="helperTextTextColor">@color/colorOnSurface</item>
+    </style>
+
+    <style name="Widget_App_TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Общие закругления -->
+    <style name="Shape_App_Rounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <!-- Стиль текста элемента списка чатов -->
+    <style name="TextAppearance_App_ChatItem" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/colorOnSurface</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Theme.Messanger" parent="Base.Theme.Messanger" />
+    
+</resources>

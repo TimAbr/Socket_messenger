@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File: res/layout/chat_item.xml (finalized) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_rect"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <View
+        android:id="@+id/chat_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="3dp"
+        android:background="@drawable/default_user_icon" />
+
+    <TextView
+        android:id="@+id/chat_name"
+        style="@style/TextAppearance_App_ChatItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="8dp"
+        android:text="TextView"
+        android:visibility="visible" />
+
+</LinearLayout>
